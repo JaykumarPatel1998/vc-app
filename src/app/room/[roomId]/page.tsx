@@ -10,7 +10,7 @@ export default async function RoomPage({ params }: Props) {
   const { roomId } = await params;
 
   return (
-    <main className="min-h-screen flex items-center justify-center">
+    <main className="h-screen w-screen flex items-center justify-center overflow-hidden">
       <RoomClient roomId={roomId} />
     </main>
   );
