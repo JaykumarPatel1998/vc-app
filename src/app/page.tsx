@@ -13,7 +13,7 @@ export default function HomePage() {
       {/* SINGLE BACKGROUND IMAGE */}
       <div className="absolute inset-0">
         <Image
-          src="/photos/2.jpg" // your background photo
+          src="/photos/2.JPG" // your background photo
           alt="Background"
           fill
           className="object-cover"

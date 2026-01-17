@@ -39,7 +39,7 @@ export default function PreJoinPage({ params }: { params: { roomId: string } }) 
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/photos/5.jpg"
+          src="/photos/5.JPG"
           alt="Background"
           className="w-full h-full object-cover"
         />
